@@ -35,10 +35,10 @@ fi
 # Try to setup geant4.  GEANT4 installs geant4.sh in the bin directory
 # to setup the environment.  The first "geant4.sh" in the path will
 # define the geant that is used.
-. geant4.sh >& /dev/null
-if [ $? != 0 ]; then
-    echo GEANT not available.
-fi
+#. geant4.sh >& /dev/null
+#if [ $? != 0 ]; then
+#    echo GEANT not available.
+#fi
 
 # Find the root of the building area.
 ___edep_root() {
